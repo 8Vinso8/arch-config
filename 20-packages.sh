@@ -17,6 +17,7 @@ AddPackage zram-generator # Systemd unit generator for zram devices
 
 AddPackage hdparm # A shell utility for manipulating Linux IDE drive/driver parameters
 AddPackage ddcutil # Query and change Linux monitor settings using DDC/CI and USB.
+AddPackage joyutils # jscal, jstest and jsattach utilities for the Linux joystick driver
 
 AddPackage btrfs-progs # Btrfs filesystem utilities
 

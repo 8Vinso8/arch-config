@@ -53,6 +53,9 @@ CopyFile /etc/hostname
 # sudo configuration
 CopyFile /etc/sudoers.d/10-wheel 440
 
+# systemd-tmpfiles sets the root directory mode by default anyway
+SetFileProperty / mode 555
+
 # =============================================================================
 # Package management
 # =============================================================================
@@ -75,6 +78,7 @@ CopyFile /etc/systemd/system/hdparm.service
 # udev rules
 CopyFile /etc/udev/rules.d/99-gigabyte.rules
 CopyFile /etc/udev/rules.d/99-hdparm.rules
+CopyFile /etc/udev/rules.d/99-moza.rules
 
 
 # =============================================================================
