@@ -51,8 +51,7 @@ CreateLink /etc/localtime /usr/share/zoneinfo/Asia/Vladivostok
 CopyFile /etc/hostname
 
 # sudo configuration
-CopyFile /etc/sudoers
-
+CopyFile /etc/sudoers.d/10-wheel 440
 
 # =============================================================================
 # Package management
