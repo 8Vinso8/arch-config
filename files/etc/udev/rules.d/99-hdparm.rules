@@ -1,1 +1,1 @@
-ACTION=="add|change", SUBSYSTEM=="block", KERNEL=="sdb", RUN+="/usr/bin/hdparm -B 127 -S 0 /dev/sdb"
+ACTION=="add|change", SUBSYSTEM=="block", ENV{DEVTYPE}=="disk", ENV{ID_SERIAL_SHORT}=="WD-WCC6Y6ED6DH9", RUN+="/usr/bin/hdparm -B 127 /dev/%k"

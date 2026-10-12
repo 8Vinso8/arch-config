@@ -5,7 +5,7 @@ After=suspend.target hybrid-sleep.target hibernate.target suspend-then-hibernate
 [Service]
 Type=oneshot
 User=root
-ExecStart=/usr/bin/hdparm -B 127 /dev/sdb
+ExecStart=/usr/bin/hdparm -B 127 /dev/disk/by-id/ata-WDC_WD10EZEX-60WN4A0_WD-WCC6Y6ED6DH9
 
 [Install]
 WantedBy=suspend.target hybrid-sleep.target hibernate.target suspend-then-hibernate.target
