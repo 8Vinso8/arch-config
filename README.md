@@ -1,1 +1,1 @@
-sudo systemctl enable hdparm.service ddc-restore.service
+``sudo systemctl enable hdparm.service ddc-restore.service``
