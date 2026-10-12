@@ -1,13 +1,13 @@
 [Unit]
-Description=Reapply brightness value after sleep
+Description=Restore monitor brightness after sleep
 After=suspend.target hybrid-sleep.target hibernate.target suspend-then-hibernate.target
 
 [Service]
 Type=oneshot
 User=vinso
-Environment="XDG_CACHE_HOME=/home/vinso/.cache"
-ExecStartPre=/usr/bin/sleep 3
-ExecStart=/usr/bin/sh -c '/usr/bin/ddcutil --disable-dynamic-sleep --noverify setvcp 10 $(cat /home/vinso/.config/last_brightness)'
+Environment=HOME=/home/vinso
+Environment=XDG_CONFIG_HOME=/home/vinso/.config
+ExecStart=/home/vinso/.config/scripts/ddc-brightness.sh restore
 
 [Install]
 WantedBy=suspend.target hybrid-sleep.target hibernate.target suspend-then-hibernate.target
