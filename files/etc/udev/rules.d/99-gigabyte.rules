@@ -1,0 +1,1 @@
+KERNEL=="0000:00:01.1", SUBSYSTEM=="pci", DRIVERS=="pcieport", ATTR{vendor}=="0x1022", ATTR{device}=="0x1483", ATTR{power/wakeup}="disabled"

@@ -1,0 +1,11 @@
+[Unit]
+Description=Reapply hdparm APM setting after sleep
+After=suspend.target hybrid-sleep.target hibernate.target suspend-then-hibernate.target
+
+[Service]
+Type=oneshot
+User=root
+ExecStart=/usr/bin/hdparm -B 127 /dev/sdb
+
+[Install]
+WantedBy=suspend.target hybrid-sleep.target hibernate.target suspend-then-hibernate.target

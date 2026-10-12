@@ -1,0 +1,13 @@
+[Unit]
+Description=Reapply brightness value after sleep
+After=suspend.target hybrid-sleep.target hibernate.target suspend-then-hibernate.target
+
+[Service]
+Type=oneshot
+User=vinso
+Environment="XDG_CACHE_HOME=/home/vinso/.cache"
+ExecStartPre=/usr/bin/sleep 3
+ExecStart=/usr/bin/sh -c '/usr/bin/ddcutil --disable-dynamic-sleep --noverify setvcp 10 $(cat /home/vinso/.config/last_brightness)'
+
+[Install]
+WantedBy=suspend.target hybrid-sleep.target hibernate.target suspend-then-hibernate.target
