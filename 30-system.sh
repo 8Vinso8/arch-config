@@ -8,6 +8,7 @@ CopyFile /etc/cmdline.d/quiet.conf
 
 # Kernel preset
 CopyFile /etc/mkinitcpio.d/linux-zen.preset
+CopyFile /etc/mkinitcpio.d/boot_splash.bmp
 
 
 # =============================================================================
