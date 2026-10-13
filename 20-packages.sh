@@ -67,8 +67,8 @@ AddPackage pavucontrol # PulseAudio Volume Control
 
 AddPackage greetd # Generic greeter daemon
 AddPackage hyprland # a highly customizable dynamic tiling Wayland compositor
+AddPackage --foreign waybar-git # Highly customizable Wayland bar for Sway and Wlroots based compositors
 AddPackage xdg-desktop-portal-hyprland # xdg-desktop-portal backend for hyprland
-AddPackage waybar # Highly customizable Wayland bar for Sway and Wlroots based compositors
 AddPackage hyprshot # Hyprland screenshot utility
 AddPackage hyprpicker # Hyprshot dependency to freeze screen during screenshot 
 AddPackage hyprpolkitagent # Simple polkit authentication agent for Hyprland, written in QT/QML
@@ -92,6 +92,7 @@ AddPackage --foreign throne-sysqt-bin # Cross-platform GUI proxy utility (Empowe
 AddPackage kitty # A modern, hackable, featureful, OpenGL-based terminal emulator
 AddPackage fooyin # A customisable music player
 AddPackage --foreign zen-browser-bin # Official package for Zen, a privacy-focused, feature packed Firefox-based web browser
+AddPackage mpv # a free, open source, and cross-platform media player
 
 AddPackage syncthing # Open Source Continuous Replication / Cluster Synchronization Thing
 
