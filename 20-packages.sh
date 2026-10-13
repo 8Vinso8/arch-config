@@ -17,7 +17,8 @@ AddPackage zram-generator # Systemd unit generator for zram devices
 
 AddPackage hdparm # A shell utility for manipulating Linux IDE drive/driver parameters
 AddPackage ddcutil # Query and change Linux monitor settings using DDC/CI and USB.
-AddPackage joyutils # jscal, jstest and jsattach utilities for the Linux joystick driver
+AddPackage joyutils # jscal, jstest and jsattach utilities for the Linux joystick driver - to change moza wheelbase fuzz value
+AddPackage --foreign boxflat-git # Adjust your Moza Racing gear settings - to configure moza wheelbase
 
 AddPackage btrfs-progs # Btrfs filesystem utilities
 
@@ -38,6 +39,7 @@ AddPackage fd # Simple, fast and user-friendly alternative to find
 AddPackage fastfetch # A feature-rich and performance oriented neofetch like system information tool
 
 AddPackage neovim # Fork of Vim aiming to improve user experience, plugins, and GUIs
+AddPackage tree-sitter-cli # CLI tool for developing, testing, and using Tree-sitter parsers | nvim-treesitter dependency
 AddPackage lua-language-server # Lua Language Server coded by Lua
 
 AddPackage dolphin # KDE File Manager
@@ -52,6 +54,7 @@ AddPackage vulkan-radeon # Open-source Vulkan driver for AMD GPUs
 
 AddPackage steam # Valve's digital software delivery system
 AddPackage --foreign proton-ge-custom-bin # A fancy custom distribution of Valves Proton with various patches
+AddPackage --foreign optiscaler-client-bin # A modern manager for OptiScaler
 
 AddPackage pipewire # Low-latency audio/video router and processor
 AddPackage lib32-pipewire # Low-latency audio/video router and processor - 32-bit

@@ -79,6 +79,7 @@ CopyFile /etc/systemd/system/hdparm.service
 CopyFile /etc/udev/rules.d/99-gigabyte.rules
 CopyFile /etc/udev/rules.d/99-hdparm.rules
 CopyFile /etc/udev/rules.d/99-moza.rules
+CopyFile /etc/udev/rules.d/99-boxflat.rules # rules for boxflat to work, it adds them automatically on first launch
 
 
 # =============================================================================
