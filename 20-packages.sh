@@ -75,7 +75,9 @@ AddPackage hyprpolkitagent # Simple polkit authentication agent for Hyprland, wr
 AddPackage mako # Lightweight notification daemon for Wayland
 AddPackage libnotify # Library for sending desktop notifications
 AddPackage rofi # A window switcher, application launcher and dmenu replacement
+AddPackage cliphist # wayland clipboard manager
 AddPackage rofi-emoji # A Rofi plugin for selecting emojis
+AddPackage wtype # xdotool type for wayland rofi emoji dependency
 AddPackage xdg-user-dirs # Manage user directories like ~/Desktop and ~/Music
 
 AddPackage qt6ct # Qt 6 Configuration Utility
