@@ -21,6 +21,7 @@ AddPackage joyutils # jscal, jstest and jsattach utilities for the Linux joystic
 AddPackage --foreign boxflat-git # Adjust your Moza Racing gear settings - to configure moza wheelbase
 
 AddPackage btrfs-progs # Btrfs filesystem utilities
+AddPackage compsize # Calculate compression ratio of a set of files on Btrfs
 
 AddPackage terminus-font # Monospace bitmap font (for X11 and console)
 AddPackage ttf-jetbrains-mono # Typeface for developers, by JetBrains
@@ -96,6 +97,7 @@ AddPackage kitty # A modern, hackable, featureful, OpenGL-based terminal emulato
 AddPackage fooyin # A customisable music player
 AddPackage --foreign zen-browser-bin # Official package for Zen, a privacy-focused, feature packed Firefox-based web browser
 AddPackage mpv # a free, open source, and cross-platform media player
+AddPackage qbittorrent # An advanced BitTorrent client programmed in C++, based on Qt toolkit and libtorrent-rasterbar
 
 AddPackage syncthing # Open Source Continuous Replication / Cluster Synchronization Thing
 
