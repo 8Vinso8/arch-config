@@ -38,6 +38,7 @@ AddPackage bat # Cat clone with syntax highlighting and git integration
 AddPackage eza # A modern replacement for ls (community fork of exa)
 AddPackage fd # Simple, fast and user-friendly alternative to find
 AddPackage fastfetch # A feature-rich and performance oriented neofetch like system information tool
+AddPackage btop # A monitor of system resources, bpytop ported to C++
 
 AddPackage neovim # Fork of Vim aiming to improve user experience, plugins, and GUIs
 AddPackage tree-sitter-cli # CLI tool for developing, testing, and using Tree-sitter parsers | nvim-treesitter dependency
