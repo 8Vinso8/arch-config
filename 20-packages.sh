@@ -39,6 +39,7 @@ AddPackage eza # A modern replacement for ls (community fork of exa)
 AddPackage fd # Simple, fast and user-friendly alternative to find
 AddPackage fastfetch # A feature-rich and performance oriented neofetch like system information tool
 AddPackage btop # A monitor of system resources, bpytop ported to C++
+AddPackage less # A terminal based program for viewing text files
 
 AddPackage neovim # Fork of Vim aiming to improve user experience, plugins, and GUIs
 AddPackage tree-sitter-cli # CLI tool for developing, testing, and using Tree-sitter parsers | nvim-treesitter dependency
@@ -55,8 +56,13 @@ AddPackage lib32-mesa # Open-source OpenGL drivers - 32-bit
 AddPackage vulkan-radeon # Open-source Vulkan driver for AMD GPUs
 
 AddPackage steam # Valve's digital software delivery system
+AddPackage xorg-fonts-cyrillic # X.org cyrillic fonts
+AddPackage xorg-fonts-misc # X.org misc fonts
+AddPackage xorg-mkfontscale # Create an index of scalable font files for X
 AddPackage --foreign proton-ge-custom-bin # A fancy custom distribution of Valves Proton with various patches
 AddPackage --foreign optiscaler-client-bin # A modern manager for OptiScaler
+AddPackage gamemode # A daemon/lib combo that allows games to request a set of optimisations be temporarily applied to the host OS
+AddPackage protontricks # Run Winetricks commands for Steam Play/Proton games among other common Wine features
 
 AddPackage pipewire # Low-latency audio/video router and processor
 AddPackage lib32-pipewire # Low-latency audio/video router and processor - 32-bit
