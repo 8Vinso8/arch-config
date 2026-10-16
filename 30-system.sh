@@ -18,6 +18,7 @@ CopyFile /etc/mkinitcpio.d/boot_splash.bmp
 # zram configuration
 CopyFile /etc/cmdline.d/zram.conf
 CopyFile /etc/systemd/zram-generator.conf
+CopyFile /etc/sysctl.d/99-zram.conf
 
 
 # =============================================================================
