@@ -45,6 +45,8 @@ AddPackage neovim # Fork of Vim aiming to improve user experience, plugins, and 
 AddPackage tree-sitter-cli # CLI tool for developing, testing, and using Tree-sitter parsers | nvim-treesitter dependency
 AddPackage lua-language-server # Lua Language Server coded by Lua
 
+AddPackage --foreign antigravity-cli # Google's agentic development platform (CLI companion)
+
 AddPackage dolphin # KDE File Manager
 AddPackage ark # Archiving Tool
 AddPackage 7zip # File archiver for extremely high compression
@@ -60,6 +62,7 @@ AddPackage xorg-fonts-cyrillic # X.org cyrillic fonts
 AddPackage xorg-fonts-misc # X.org misc fonts
 AddPackage xorg-mkfontscale # Create an index of scalable font files for X
 AddPackage --foreign proton-ge-custom-bin # A fancy custom distribution of Valves Proton with various patches
+AddPackage --foreign protonup-qt-bin # Install and manage Proton-GE for Steam and Wine-GE for Lutris with this graphical user interface.
 AddPackage --foreign optiscaler-client-bin # A modern manager for OptiScaler
 AddPackage gamemode # A daemon/lib combo that allows games to request a set of optimisations be temporarily applied to the host OS
 AddPackage protontricks # Run Winetricks commands for Steam Play/Proton games among other common Wine features
