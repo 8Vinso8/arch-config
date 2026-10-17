@@ -6,6 +6,7 @@ AddPackage efibootmgr # Linux user-space application to modify the EFI Boot Mana
 
 AddPackage git # the fast distributed version control system
 AddPackage base-devel # Basic tools to build Arch Linux packages
+AddPackage reflector # A Python 3 module and script to retrieve and filter the latest Pacman mirror list.
 AddPackage --foreign yay-bin # Yet another yogurt. Pacman wrapper and AUR helper written in go. Pre-compiled.
 AddPackage --foreign aconfmgr-git # A configuration manager for Arch Linux
 
@@ -40,6 +41,7 @@ AddPackage fd # Simple, fast and user-friendly alternative to find
 AddPackage fastfetch # A feature-rich and performance oriented neofetch like system information tool
 AddPackage btop # A monitor of system resources, bpytop ported to C++
 AddPackage less # A terminal based program for viewing text files
+AddPackage android-tools # Android platform tools
 
 AddPackage neovim # Fork of Vim aiming to improve user experience, plugins, and GUIs
 AddPackage tree-sitter-cli # CLI tool for developing, testing, and using Tree-sitter parsers | nvim-treesitter dependency
@@ -81,6 +83,7 @@ AddPackage pavucontrol # PulseAudio Volume Control
 
 AddPackage greetd # Generic greeter daemon
 AddPackage hyprland # a highly customizable dynamic tiling Wayland compositor
+AddPackage --foreign hyprland-per-window-layout # Per window keyboard layout (language) for Hyprland wayland compositor
 AddPackage --foreign waybar-git # Highly customizable Wayland bar for Sway and Wlroots based compositors
 AddPackage xdg-desktop-portal-hyprland # xdg-desktop-portal backend for hyprland
 AddPackage hyprshot # Hyprland screenshot utility
