@@ -89,6 +89,8 @@ AddPackage xdg-desktop-portal-hyprland # xdg-desktop-portal backend for hyprland
 AddPackage hyprshot # Hyprland screenshot utility
 AddPackage hyprpicker # Hyprshot dependency to freeze screen during screenshot 
 AddPackage hyprpolkitagent # Simple polkit authentication agent for Hyprland, written in QT/QML
+AddPackage hyprpaper # Hyprland wallpaper utility
+AddPackage hypridle # Hyprland's idle daemon
 AddPackage mako # Lightweight notification daemon for Wayland
 AddPackage libnotify # Library for sending desktop notifications
 AddPackage rofi # A window switcher, application launcher and dmenu replacement
