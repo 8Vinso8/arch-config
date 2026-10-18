@@ -80,6 +80,7 @@ AddPackage lib32-pipewire-jack # Low-latency audio/video router and processor - 
 AddPackage rtkit # Realtime Policy and Watchdog Daemon
 AddPackage realtime-privileges # Realtime privileges for users
 AddPackage pavucontrol # PulseAudio Volume Control
+AddPackage cava # Console-based Audio Visualizer
 
 AddPackage greetd # Generic greeter daemon
 AddPackage hyprland # a highly customizable dynamic tiling Wayland compositor
@@ -106,6 +107,8 @@ AddPackage kvantum # SVG-based theme engine for Qt6 (including config tool and e
 AddPackage --foreign kvantum-theme-catppuccin-git # Soothing pastel theme for Kvantum
 AddPackage adwaita-cursors # GNOME standard cursors
 AddPackage breeze-icons # Breeze icon theme
+AddPackage papirus-icon-theme # Pixel-perfect icon theme for Linux
+AddPackage --foreign papirus-folders-catppuccin-git # Soothing pastel theme for Papirus Icon Theme folders
 
 AddPackage --foreign throne-sysqt-bin # Cross-platform GUI proxy utility (Empowered by sing-box) not pack the Qt libraries
 AddPackage kitty # A modern, hackable, featureful, OpenGL-based terminal emulator
