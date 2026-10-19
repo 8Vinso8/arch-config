@@ -18,6 +18,7 @@ AddPackage zram-generator # Systemd unit generator for zram devices
 
 AddPackage hdparm # A shell utility for manipulating Linux IDE drive/driver parameters
 AddPackage ddcutil # Query and change Linux monitor settings using DDC/CI and USB.
+AddPackage power-profiles-daemon # Makes power profiles handling available over D-Bus (used by scx_loader)
 AddPackage joyutils # jscal, jstest and jsattach utilities for the Linux joystick driver - to change moza wheelbase fuzz value
 AddPackage --foreign boxflat-git # Adjust your Moza Racing gear settings - to configure moza wheelbase
 
@@ -68,6 +69,7 @@ AddPackage --foreign protonup-qt-bin # Install and manage Proton-GE for Steam an
 AddPackage --foreign optiscaler-client-bin # A modern manager for OptiScaler
 AddPackage gamemode # A daemon/lib combo that allows games to request a set of optimisations be temporarily applied to the host OS
 AddPackage protontricks # Run Winetricks commands for Steam Play/Proton games among other common Wine features
+AddPackage scx-tools # D-Bus interface and tools (scx_loader, scxctl) for managing sched-ext (eBPF) CPU schedulers
 
 AddPackage pipewire # Low-latency audio/video router and processor
 AddPackage lib32-pipewire # Low-latency audio/video router and processor - 32-bit

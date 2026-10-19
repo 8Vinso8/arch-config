@@ -1,0 +1,5 @@
+# Default sched-ext (eBPF) CPU scheduler on system boot.
+# scx_lavd: Latency-critical and Virtual-reality-Driven scheduler.
+# Prioritizes game/interactive threads, minimizes frametime variance, and stabilizes 1% low FPS.
+default_sched = "scx_lavd"
+default_mode = "Gaming"

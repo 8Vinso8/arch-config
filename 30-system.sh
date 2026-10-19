@@ -89,3 +89,20 @@ CopyFile /etc/udev/rules.d/99-boxflat.rules # rules for boxflat to work, it adds
 
 # greetd display manager
 CopyFile /etc/greetd/config.toml
+
+
+# =============================================================================
+# CPU Schedulers (sched-ext / scx)
+# =============================================================================
+
+# Default eBPF scheduler configuration (scx_lavd in Gaming mode for lower frametime variance and 1% low FPS in games)
+CopyFile /etc/scx_loader.toml
+
+
+# =============================================================================
+# Audio
+# =============================================================================
+
+# Disable power saving for Intel/Realtek HDA audio codec to eliminate clicks/pops on playback start
+CopyFile /etc/modprobe.d/audio_power_save.conf
+
