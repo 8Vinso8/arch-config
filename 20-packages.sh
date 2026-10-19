@@ -82,7 +82,6 @@ AddPackage lib32-pipewire-jack # Low-latency audio/video router and processor - 
 AddPackage rtkit # Realtime Policy and Watchdog Daemon
 AddPackage realtime-privileges # Realtime privileges for users
 AddPackage pavucontrol # PulseAudio Volume Control
-AddPackage cava # Console-based Audio Visualizer
 
 AddPackage greetd # Generic greeter daemon
 AddPackage hyprland # a highly customizable dynamic tiling Wayland compositor
